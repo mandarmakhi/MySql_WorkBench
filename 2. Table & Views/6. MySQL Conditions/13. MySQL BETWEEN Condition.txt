@@ -1,0 +1,53 @@
+#MySQL BETWEEN Condition
+
+#(i) MySQL BETWEEN condition with numeric value:
+
+SELECT * FROM officers;
+
+
+
+SELECT *  
+FROM officers  
+WHERE officer_id BETWEEN 1 AND 3;  
+
+
+#(ii) MySQL BETWEEN condition with date:
+
+SELECT * FROM employees;
+
+
+SELECT *  
+FROM employees  
+WHERE working_date BETWEEN CAST ('2015-01-24' AS DATE) AND CAST ('2015-01-25' AS DATE);  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
