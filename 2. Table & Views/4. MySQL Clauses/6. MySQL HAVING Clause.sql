@@ -2,7 +2,7 @@
 
 CREATE TABLE employees(emp_id int, emp_name Varchar(35), working_date Date, working_hours int);
 
-INSERT INTO employees VALUES(1,'ajeet', 2015-01-24, 12),
+INSERT INTO employees (emp_id, emp_name, working_date, working_hours)VALUES(1,'ajeet', 2015-01-24, 12),
 (2,'ayan',2015-01-24,10),
 (3,'milan',2015-01-24,9),
 (4,'ruchi',2015-01-24,6),
